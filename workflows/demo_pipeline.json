@@ -1,0 +1,6 @@
+{
+  "name": "Demo Call Pipeline",
+  "nodes": [],
+  "connections": {},
+  "meta": "Import and connect nodes to run extract_demo.py then generate_prompt.py"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Onboarding Update Pipeline",
+  "nodes": [],
+  "connections": {},
+  "meta": "Run apply_patch.py then regenerate agent spec"
+}
