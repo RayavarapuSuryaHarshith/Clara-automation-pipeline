@@ -1,0 +1,34 @@
+{
+  "account_id": "bens_electric",
+  "company_name": "Ben\u2019s Electric",
+  "business_hours": {
+    "days": "",
+    "start": "",
+    "end": "",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [
+    "electrical service",
+    "commercial electrical maintenance"
+  ],
+  "emergency_definition": [],
+  "emergency_routing_rules": {},
+  "non_emergency_routing_rules": {
+    "collect_details": true
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 60,
+    "retries": 2
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "If emergency collect caller info and attempt dispatch transfer.",
+  "office_hours_flow_summary": "Collect caller name and number then transfer to service desk.",
+  "questions_or_unknowns": [
+    "business hours not mentioned",
+    "dispatch number not mentioned",
+    "emergency routing not confirmed",
+    "office address missing"
+  ],
+  "notes": "Generated from demo recording with incomplete operational details."
+}
